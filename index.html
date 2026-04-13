@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header-container">
+            <input type="text" class="search-bar" placeholder="Enter city name">
+            <div class="search-bar-icon-container">
+                <img src="images/search.png" class="search-icon">
+            </div>
+        </div>
+        <div class="middle-container">
+            <img src="images/clear.png" class="clear-image">
+            <p class="temperature">22°<span>C</span></p>
+            <p class="city">Kutaisi</p>
+        </div>
+        <div class="bottom-container">
+            <div class="humidity-container">
+                <img src="images/humidity.png" class="icon">
+                <div>
+                    <p class="humidity-percentage">53%</p>
+                    <p class="humidity-text">Humidity</p>
+                </div>
+            </div>
+            <div class="wind-speed-container">
+                <img src="images/wind.png" class="icon">
+                <div>
+                    <p class="wind-speed">5.66 km/h</p>
+                    <p class="wind-speed-text">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+        <p class="error-message"></p>
+    </div>
+</body>
+</html>
